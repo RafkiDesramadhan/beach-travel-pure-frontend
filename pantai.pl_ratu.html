@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RD Blog - Sukabumi</title>
+    <link rel="stylesheet" href="style_proyek.css"> 
+</head>
+<body>
+    <header>
+        <div class="jumbo">
+            <h1>Sukabumi</h1>
+            <p>Tempat Wisata Surga Desa Tersembunyi Di Wilayah Selatan Jawa Barat Yang Menarik Untuk Di Kunjungi</p>
+        </div>
+        <nav>
+            <img src="Asset/rd.png" alt="logo" id="logo">
+            <ul>
+                <li><a href="#pelabuhan">Pantai Pelabuhan Ratu</a></li>
+                <li><a href="#ujung_genteng">Pantai Ujung Genteng</a></li>
+                <li><a href="#geopark">Pantai Geopark Ciletuh</a></li>  
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="content">
+            <article id="pelabuhan" class="efek">
+                <h2>Artikel Menarik</h2>
+                <h3>Pantai Pelabuhan Ratu</h3>
+                <img src="Asset/pantai_pl.ratu.jpg" alt="Pantai Pelabuhan Ratu" class="gambar">
+                <p>Pantai Pelabuhan Ratu adalah pantai yang berlokasi di Pelabuhan Ratu, Jawa Barat, Indonesia .
+                    Pantai ini cukup terkenal dari dahulu hingga saat ini. Karena tempatnya yang Indah dengan
+                    lingkungan yang masih sejuk. Bila ingin membeli ikan disini tersedia pasar ikan yang
+                    menawarkan harga yang terbilang cukup. Bila kalian ingin pergi kesini bila dari Jakarta 
+                    kemungkinan menempuh perjalanan hingga 5-7 jam. Namun sekarang sudah ada jalan Tol baru 
+                    yaitu Tol Bocimi walau sampai saat ini baru selesai sampai jalur Cigombong. Kalau kalian 
+                    ingin pergi kesini banyak tempat penginapan / villa yang menawarkan harga murah. Oiyaaa,,
+                    Pantai disini ombaknya sangat besar, jadi disarankan untuk tidak berenang ke tempat yang rawan,
+                    karena di khawatirkan bisa terjadi hal hal yang tidak diinginkan. Untuk harga tiket masuk 
+                    tidak sampai mengocek uang lebih pokoknya hehe :D . Untuk tempat rekreasinya disini masih banyak dan tidak jauh 
+                    dari lokasi ini, seperti Pantai Citepus, Pantai Karang Hawu dan Masih banyak lagi.
+                </p>
+            </article>
+            <article id="ujung_genteng" class="efek">
+                <h3>Pantai Ujung Genteng</h3>
+                <img src="Asset/ujung.jpg" alt="Pantai Ujung Genteng" class="gambar">
+                <p>Siapa sih yang belum tahu Pantai yang satu ini? yap ini adalah Pantai Ujung Genteng
+                    Pantai Ujung Genteng yang berlokasi agak lumayan jauh dari Pantai Pelabuhan Ratu ini
+                     mempunyai destinasi yang luar biasa. Pasirnya yang berwarna putih, ombaknya yang berwarna biru
+                      dan ditambah lagi dengan angin yang sepoy sepoy. Namun untuk pergi kesini agak lumayan Jauh.
+                       Namun hal itu tidak menyurutkan semangat untuk pergi kesana karena pada saat sampai tujuan 
+                       dapat memanjakan mata kita. Dengan gunung yang berwarna hijau serta seperti hutan akses masuk kedalamnya 
+                       . Di tambah ada muara (Sungai Besar) yang menuju laut. Dan disini terdapat Penyu juga. Hal 
+                    ini yang menjadi daya tarik wisatawan tidak hanya masyarakat lokal, namun ada juga masyarakat luar.
+                    Disini juga terdapat Air Terjun (Curug), yang menambahkan pesona indahnya di lokasi ini.
+                    Yakni Curug cikaso, dan masih banyak lagi. Disarankan datang pagi kesini untuk bisa menikmati 
+                    semua tempat wisata yang ada disini berkenaan dengan aksesnya yang agak jauh.
+                </p>
+            </article>
+        
+
+            <article id="geopark" class="efek">
+                <h3>Pantai Geopark Ciletuh</h3>
+                <img src="Asset/Geopark.jpg" alt="Geopark Ciletuh" class="gambar">
+                <p>Pantai Geopark Ciletuh yang jaraknya tidak terlalu jauh antara Pantai Ujung Genteng dengan 
+                    Pantai Pelabuhan Ratu ini memiliki daya tarik wisatawan yang khas. Bagaimana tidak? Disamping Pantai kita bisa 
+                    melihat air terjun dari pasir pantai. Tidak hanya Pantai saja yang berada di sini. Namun Puncak Darma juga ada 
+                    . Dari Pantai Geopark sekitar 10-15 km untuk pergi kepuncaknya. Kita juga bisa melihat pantai dari atas gunung.
+                    Namun harus berhati-hati karena dibawahnya ada jurang. Kembali ke Pantai, tempat wisata ini memiliki air yang coklat,
+                     namun bukan dari sampah atau yg lainnya. Disini memang sudah dinamakan Geopark Ciletuh dengan pantai yg coklat namun bersih. 
+                     Sebelum kita berangkat kesini kita dimanjakan dengan pemandangan yang luar biasa. Sebab, jalanannya 
+                     yang berliku liku ditambah jurang yang dibawahnya ada laut.. uuu sungguh mengerikan, untuk teman-teman 
+                     yang ingin kesini harap hati-hati yaaa.
+                </p>
+            </article>
+
+            <article class="efek">
+                <details>
+                    <summary>Berikan Komentar Anda</summary>
+                    <form onclick="return false">
+                        <fieldset>
+                            <legend>Nama dan Komentar</legend>
+                            <label for="#nama_user">Nama</label>
+                            <span id="spasi_nama">
+                                <input type="text" placeholder="Masukkan Nama Anda" id="nama_user" value="">
+                            </span>
+                            <br><br>
+                            <label for="komentar">Komentar</label>
+                            <span>
+                                 <textarea id="komentar" placeholder="Masukkan Komentar" value="" cols="30" rows="5"></textarea>
+                            </span>
+                            <br><br><button id="submit">Submit</button>
+                        </fieldset>
+                    </form>
+
+                    <br><!-- javascript -->
+                    <div id="wadah">
+                        
+                    </div>
+                </details>
+            </article>
+        </div>    
+        
+        <aside>
+            <article class="profile efek">
+                <header>
+                    <h3>Kota Sukabumi</h3>
+                    <figure>
+                        <img src="Asset/sukabumi.png" alt="logo">
+                        <figcaption>Lambang</figcaption>
+                        <figcaption>Semboyan: Reugreug Pageuh Repeh Rapih</figcaption>
+                        <figcaption>--------------------------------------------------</figcaption>
+                        <figcaption>(Teguh, Kukuh, Damai, Rukun)</figcaption>
+                    </figure>
+                </header>
+                <section>
+                    <h3>Informasi Lainnya</h3>
+                    <table>
+                        <tr>
+                            <th>Negara</th>
+                            <td>Indonseia</td>
+                        </tr>
+                        <tr>
+                            <th>Provinsi</th>
+                            <td>Jawa Barat</td>
+                        </tr>
+                        <tr>
+                            <th>Luas Total</th>
+                            <td>48,42 km<sup>2</sup></td>
+                        </tr>
+                        <tr>
+                            <Th>Bahasa Daerah</Th>
+                            <td>Sunda</td>
+                        </tr>
+                        <tr>
+                            <th>Situs Web</th>
+                            <blockquote>
+                            <td><a href="http://www.sukabumikota.go.id/" id="link"><cite title="http://www.sukabumikota.go.id/">Portal Sukabumi Kota</cite></cite></a> </td>
+                            </blockquote>
+                        </tr>
+                    </table>
+                </section>
+            </article>
+                
+            <article class="profile efek" id="aside2"> 
+                <header>
+                    <h3>RD Blogger</h3>
+                    <figure>
+                        <img src="Asset/rd.png" alt="logo blog">
+                    <figcaption>Rafki Desramadhan</figcaption>
+                    </figure>
+                </header>
+                <section>
+                    <h3>Informasi Blog</h3>
+                    <table>
+                        <tr>
+                            <th>Didirikan</th>
+                            <td>2020</td>
+                        </tr>
+                            <th>Alamat</th>
+                            <td><address>Jl. Waru Jakarta Timur</address></td>
+                        </tr>
+                        <tr>
+                            <th>No Hp</th>
+                            <td><phone>087889001545</phone></td>
+                        </tr>
+                        
+                    </table>
+                </section>
+            </article> 
+
+            <article class="profile efek" id="aside2">
+                <header>
+                    <h3>Pemilik Blog</h3>
+                    <figure>
+                        <img src="Asset/pemilik.jpg" alt="foto" width="180" height="180">
+                        <figcaption>Ancol 2018</figcaption>
+                    </figure>
+                </header>
+                <section>
+                    <h3>Informasi Pemilik</h3>
+                    <table>
+                        <tr>
+                            <th>Nama</th>
+                            <td>Rafki Desramadhan</td>
+                        </tr>
+                        <tr>
+                            <th>Umur</th>
+                            <td>20 Tahun</td>
+                        </tr>
+                        <tr>
+                            <th>Hobi</th>
+                            <td>Bermain Musik</td>
+                        </tr>
+                        <tr>
+                            <th>Pekerjaan</th>
+                            <td>Mahasiswa</td>
+                        </tr>
+                        <tr>
+                            <th>Nama Kampus</th>
+                            <td>Unindra</td>
+                        </tr>
+                    </table>
+                </section>
+            </article>
+
+            <article class="profile efek" id="aside2">
+                <h3>Didukung Oleh</h3>
+                <header class="main-konten">     
+                    <figure class="konten">
+                        <br>
+                        <img src="Asset/wonderful.jpg" alt="foto" width="180" height="auto">
+                        <img src="Asset/air.png" alt="foto" width="180" height="auto">
+                        <br><br>
+                        <img src="Asset/logo_geo.jpg" alt="foto" width="180" height="auto">
+                        <br>
+                        <img src="Asset/genp.jpg" alt="foto" width="180" height="auto">
+                        <img src="Asset/bank.jpg" alt="foto" width="180" height="auto">
+                    </figure>
+                </header>   
+            </article>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy;RD Blog</p>
+        <p>Kumpulan Artikel Menarik Seputar Tempat Wisata</p>
+    </footer>
+
+    <script src="proyek.js"></script>
+</body>
+</html>

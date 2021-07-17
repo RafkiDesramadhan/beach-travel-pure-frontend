@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.jumbo {
+    text-align: center;
+    background-image: url("Asset/jumbo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 60px;
+    color: white;
+    font-size: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a:hover{
+    font-weight: bold;
+}
+
+header {
+    display: inline;
+}
+
+nav {
+    background-color: rgb(77, 172, 33);
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+#aside2 {
+    margin-top: 20px
+}
+
+.profile header{
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
+    background-color: rgb(77, 172, 33);
+    color: white;
+    padding: 7px;
+    font-weight: bold;
+}
+
+.gambar {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.efek {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+#content {
+    float: left;
+    width: 75%;
+}   
+
+main {
+    overflow: auto;
+    padding: 15px;
+    background-color: #dfdfdf;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 15px;
+}
+
+table {
+    text-align: center;
+}
+
+h3 {
+    color: rgb(56, 197, 122);
+}
+
+#link {
+    text-decoration: none;
+}
+
+#link:hover{
+    font-weight: bold;
+}
+
+#logo {
+    height: 40px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+}   
+
+ul {
+    margin-left: 15px;
+}
+
+h2:hover{
+    color: rgb(56, 197, 122);
+}
+
+#spasi_nama {
+    margin-left: 28px;
+}
+
+
+
+@media screen and (max-width: 700px) {
+    nav li {
+        display: block;
+    }
+
+    #content, aside {
+        width: 100%;
+    }
+
+    aside {
+        padding-left: 0;
+    }
+
+    #logo {
+        margin-top: 24px;
+    }
+}
